@@ -1,4 +1,15 @@
 # Maven
+- task: AppCenterTest@1
+  inputs:
+    appFile: '/Users/harithasrivathsan/Desktop/amc-app-qa.apk'
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
+    prepareTests: false
+    credentialsOption: 'inputs'
+    username: 'supermanpramod'
+    password: 'Nokia@5233'
+    appSlug: 'supermanpramod/Test'
+    devices: 'a233f0f2'
+    localeOption: 'en_US'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
