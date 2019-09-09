@@ -6,7 +6,7 @@
     prepareTests: false
     credentialsOption: 'inputs'
     username: 'supermanpramod'
-    password: 'Nokia@5233'
+    password: '*******'
     appSlug: 'supermanpramod/Test'
     devices: 'a233f0f2'
     localeOption: 'en_US'
